@@ -1,0 +1,10 @@
+
+.invalid_msg{
+    text-align: center;
+    width:88%;
+    margin: 5px auto;
+    border:1px solid red;
+    color:red;
+}
+
+

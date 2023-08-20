@@ -1,0 +1,295 @@
+*, *::after, *::before, ul,li,hr{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.submit{
+    padding: 6px;
+    border-radius: 20%;
+}
+:root {
+    --theme: #da70d6;
+    --darker_theme: #262728;
+    --white: azure;
+    --fontsize: 1.3rem;
+    --beige: #ca73e0;  
+    --dark: rgb(18, 17, 21);  
+    --formheight: 28px;
+    
+  }
+  body{
+    background-image: linear-gradient(to bottom right, #DDA0DD 50%,#FAEBD7);
+}
+::-webkit-scrollbar
+{
+    width: 6px;  /* for vertical scrollbars */
+    height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgb(146, 142, 142);
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px ;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(0, 0, 0,0.7);
+
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: azure;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+a.archive{
+    color: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color:  var(--theme);
+    padding: 10px 0px !important ;
+    max-width: 100%;
+    position: relative;
+}
+
+#logo-container{
+    text-align: center;
+}
+#logo{
+    max-height: 100%;
+}
+
+#admin-menu{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#bodyPage{
+    height: 100%;
+    padding: 0%;
+}
+div#side-navbar{
+    display: block;
+    width: 170px;
+    height: 100wh;
+    margin-left: 85px;
+    background-color: var(--theme);
+    color: var(--white);
+}
+#side-navbar > ul > li {
+    min-height: 50px;
+    font-size: large;
+    
+    border-bottom: 2px white solid;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* #main {
+    color: black;
+    width: 85%;
+    height: 100wh;
+    margin: 0 auto;
+} */
+
+#back-arrow{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#back-arrow a {
+
+    position: relative;
+    top: -8px;
+}
+
+
+#back-arrow:hover{
+    color: white;
+    font-size: 32px;
+
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#content > .text >p> a:hover{
+    text-decoration: underline;
+}
+#side-navbar > ul > li:hover{
+    background-color: var(--darker_theme);
+    font-size: larger;
+}
+
+#viewVolunteers-btn {
+    background-color: purple;
+}
+
+/* body */
+
+.booking-header {
+    padding: 30px;
+    text-align: center;
+}
+
+div.table{
+    color: black;
+    width: 100%;
+    height: 100wh;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.booking-container {
+    min-width: 663px;
+    width: 80%;
+    max-width: 100%;
+    margin: 20px auto;
+
+    overflow-wrap: break-word;
+}
+
+.booking-container > .row  {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.first-row {
+    background-color: var(--theme);
+    border-radius: 10%;
+    color: white;
+}
+
+
+
+.booking-container > .row > div[class*="col-"] {
+    align-self: center;
+    text-align: center;
+}
+
+button.toggle , button.delete , button.update {
+    color: black;
+    background-color: azure;
+    font-size: 1.2vw;
+    line-height: 30px;
+    border: none;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    margin: 10px
+}
+
+
+.first-row h4{
+    font-size: 120%;
+}
+
+@media (max-width: 766px) {
+    button.toggle {
+        font-size: 70%;
+    }
+
+    .first-row h4{
+        font-size: 12.5px;
+    }
+}
+
+button.toggle i:hover , button.delete i:hover , button.update i:hover {
+    background-color: azure;
+    font-size: 1.5rem;
+
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.student-info{
+    width: 90%;
+    margin: 2px auto;
+}
+
+@media only screen and (max-width: 300px){
+    .booking-container > .row > div[class*="col-"] {
+        align-self: start;
+        text-align: start;
+    }
+
+}
+
+a.toEmail{
+    font-size: 1.5rem;
+    color: black;
+}
+
+a.toEmail:hover {
+    color: blue;
+}
+
+
+
+
+/*media queries*/
+@media (max-width:640px) {
+    #side-navbar{
+        position: absolute;
+        display: none;
+        width: auto;
+    }
+    #main{
+        width: 100%;
+    }
+
+    #admin-menu i {
+
+        position: relative;
+        top: -8px;
+
+    }
+
+}
+@media (min-width:640px) {
+    #admin-menu{
+        display: flex;
+    }
+
+}
+
+
+
+
+

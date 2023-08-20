@@ -1,0 +1,130 @@
+
+body{
+    background-image: linear-gradient(to bottom right, #DDA0DD 50%,#FAEBD7);
+}
+div.title p{
+    padding-left: 20px;
+}
+
+div.title button:hover{
+    background-color: grey;
+    color: white;
+}
+
+div.main-content{
+    margin: 5px;
+}
+
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset.record{
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 237, 237, 0.892);
+    width:90%;
+    margin-top:12px;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    background-color: purple;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding: 6px;
+    color: white;
+}
+
+fieldset label{
+    color: grey;
+}
+
+fieldset label:not([for="eventToTime"]){
+    margin-left: 50px;
+}
+
+fieldset.record .input{
+    background-color: #F5F5F5;
+    width:80%;
+    margin: 5px;
+}
+
+div.input input:not([name="eventName"]){
+    width:200px;
+    padding-left: 10px;
+}
+
+div.input input[name="eventName"]{
+    width:200px;
+    padding-left: 10px;
+}
+
+div.oprButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:end;
+    column-gap: 12px;
+}
+
+div.input label[for="eventToTime"]{
+    width:20px;
+    text-align: center;
+}
+
+div.input label:not([for="eventToTime"]){
+    width:100px;
+    text-align: center;
+}
+
+button{
+    border-radius: 8px;
+    color: white;
+    border:none;
+}
+
+button:hover{
+    box-shadow: 2px solid grey;
+}
+
+button.deleteBtn {
+    background-color: red;
+}
+
+button.editBtn{
+    background-color: purple;
+}
+
+input#saveBtn{
+    background-color:grey;
+    color: white;
+}
+
+.oprButton input, button{
+    padding:1px 12px;
+}
+
+label[for="check"]{
+    background-color: aqua;
+    margin-left: 0px;
+}
+
+input[type="checkBox"]{
+    background-color: aqua;
+    margin-right: 0px;
+
+}
+input{
+    border: purple 2px solid;
+  
+}
+
+
+
+

@@ -1,0 +1,67 @@
+:root {
+  --theme: #da70d6;
+  --darker_theme: #262728;
+  --white: azure;
+  --fontsize: 1.3rem;
+  --beige: #ca73e0;  
+  --dark: rgb(18, 17, 21);  
+  --formheight: 28px;
+  
+}
+body{
+  background-image: linear-gradient(to bottom right, #DDA0DD 50%,#FAEBD7);
+}
+.booking-container{
+  border-radius: 5%;
+  background-color:#da70d6;
+  align-items: center;
+}
+
+.success_msg {
+  text-align: center;
+  width:88%;
+  margin: 5px auto;
+  border:1px solid green;
+  color:green;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#logo-container{
+  text-align: center;
+}
+#logo{
+  max-height: 100%;
+}
+#back-arrow{
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+#back-arrow a {
+  position: relative;
+  top: -8px;
+}
+#back-arrow:hover{
+  color: white;
+  font-size: 32px;
+}
+button.btn {
+    color: #fff;
+    background-color: #010101;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    border: 0;
+  }
+
+  button.btn:hover {
+    background-color: rgb(248, 246, 246);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+  }
+  
